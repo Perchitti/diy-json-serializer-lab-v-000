@@ -9,10 +9,6 @@ class ProductSerializer
     serialized_product += '"description": "' + product.description + '", '
 
 
-    serialized_product += '"author": {'
-    serialized_product += '"name": "' + product.author.name + '"}'
-
-
     serialized_product += '}'
 
 
